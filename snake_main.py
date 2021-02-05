@@ -32,6 +32,12 @@ while not exit_game:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
                 snake_x= snake_x+10
+            if event.key == pygame.K_LEFT:
+                snake_x= snake_x-10
+            if event.key == pygame.K_UP:
+                snake_y= snake_y-10
+            if event.key == pygame.K_DOWN:
+                snake_y= snake_y+10
 
 
 
